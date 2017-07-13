@@ -1,0 +1,11 @@
+{
+  "name": "nrjs",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "sliv <sliv.mbp@gmail.com>",
+  "license": "MIT",
+  "preferGlobal": true
+}
