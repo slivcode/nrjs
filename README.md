@@ -29,7 +29,7 @@ module.exports = {
 2. The multiline command is automatically trim to single line by design, if you happen to need multiline bash script, write an object with key `script`
 3. use `['@compile:css &','@compile:coffee &', 'wait', 'echo done!!']` for parallel tasks 
 
-```bash
+```
 $ nr # run the picker to choose tasks
 
 ? pick a script to run (Use arrow keys)   
