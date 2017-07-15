@@ -1,11 +1,41 @@
 {
   "name": "nrjs",
   "version": "0.0.1",
-  "description": "",
-  "scripts": {
-  },
   "keywords": [],
-  "author": "sliv <sliv.mbp@gmail.com>",
   "license": "MIT",
-  "preferGlobal": true
+  "author": {
+    "name": "sliv",
+    "email": "sliv.mbp@gmail.com"
+  },
+  "bin": {
+    "nr": "lib/index.js"
+  },
+  "scripts": {
+    "clean": "rm -rf lib",
+    "compile": "tsc -d --outDir lib",
+    "prepack": "npm run clean\nnpm run compile"
+  },
+  "dependencies": {
+    "@types/inquirer": "^0.0.35",
+    "@types/jest": "^20.0.2",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^8.0.12",
+    "err-result-pair": "0.0.4",
+    "inquirer": "^3.2.0",
+    "minimist": "^1.2.0",
+    "ramda-match": "0.0.3"
+  },
+  "preferGlobal": true,
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "/g/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "readme": "ERROR: No README data found!"
 }
