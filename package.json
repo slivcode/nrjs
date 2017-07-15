@@ -1,7 +1,13 @@
 {
   "name": "nrjs",
   "version": "0.0.1",
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "npm",
+    "scripts",
+    "bash",
+    "shell"
+  ],
   "license": "MIT",
   "author": {
     "name": "sliv",
@@ -25,7 +31,7 @@
     "ramda-match": "0.0.3"
   },
   "devDependencies": {
-    "@types/jest": "^20.0.2",
+    "@types/jest": "^20.0.2"
   },
   "preferGlobal": true,
   "jest": {
