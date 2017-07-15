@@ -17,13 +17,15 @@
   },
   "dependencies": {
     "@types/inquirer": "^0.0.35",
-    "@types/jest": "^20.0.2",
     "@types/minimist": "^1.2.0",
     "@types/node": "^8.0.12",
     "err-result-pair": "0.0.4",
     "inquirer": "^3.2.0",
     "minimist": "^1.2.0",
     "ramda-match": "0.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^20.0.2",
   },
   "preferGlobal": true,
   "jest": {
